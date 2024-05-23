@@ -1,4 +1,49 @@
-header{
-    background-color: rgb(3, 3, 3);
-    color: rgb(233, 11, 11);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #000000;
+    color: rgb(236, 1, 1);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.escola-imagem{
+    width: 35%;
+}
+
+.escola{
+    background-image: linear-gradient(#fdfcfc,#000000);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+    padding: 24px 0;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.Produtos{
+    inline-size: 20;
+    position: relative;
 }
